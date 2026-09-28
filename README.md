@@ -1,33 +1,33 @@
 <div align="center">
 
-![Identidad visual de TXpander](assets/txpander-identidad.png)
+![TXpander visual identity](assets/txpander-identity.png)
 
 # TXpander
 
-**Tus textos frecuentes, a unas teclas de distancia.**
+**Your frequent text, just a few keystrokes away.**
 
-Aplicación nativa de macOS para crear abreviaturas que se expanden en texto. Proyecto en desarrollo, pensado para uso personal, local y sin cuenta.
+A native macOS app for creating abbreviations that expand into text. Built for personal, local, account-free use. Currently in development.
 
 </div>
 
-## Qué permite hacer el prototipo
+## What the prototype can do
 
-| Función | Descripción |
+| Feature | Description |
 | --- | --- |
-| Snippets y grupos | Crear, editar y organizar textos reutilizables. |
-| Expansión de texto | Sustituir una abreviatura mientras escribes, con reglas de coincidencia configurables. |
-| Búsqueda rápida | Encontrar snippets en la biblioteca y desde un panel flotante. |
-| Portabilidad de datos | Importar y exportar CSV, y crear o restaurar copias JSON. |
-| Datos locales | La biblioteca se guarda en el Mac; la app no requiere una cuenta ni incorpora analítica. |
+| Snippets and groups | Create, edit, and organize reusable text. |
+| Text expansion | Replace an abbreviation while typing, with configurable matching rules. |
+| Quick search | Find snippets in the library or through a floating panel. |
+| Data portability | Import and export CSV, and create or restore JSON backups. |
+| Local data | The library stays on the Mac; the app requires no account and includes no analytics. |
 
-## Estado del proyecto
+## Project status
 
-**Versión de desarrollo: 0.1.1.** Las nueve pruebas automatizadas disponibles pasaron el 28 de septiembre de 2026. La expansión con teclado físico se comprobó en la versión anterior; la compilación 0.1.1 aún necesita esa prueba y más validación en distintas aplicaciones y equipos.
+**Development version: 0.1.1.** All nine available automated tests passed on September 28, 2026. Physical keyboard expansion was verified in the previous version; version 0.1.1 still needs that test and further validation across apps and machines.
 
-La app requiere permiso de Accesibilidad para observar las abreviaturas mientras escribes. El objetivo de compatibilidad es macOS 13 o posterior, pero esa versión mínima y los Mac Intel aún requieren pruebas directas.
+The app needs Accessibility permission to detect abbreviations while you type. The compatibility target is macOS 13 or later, but macOS 13 and Intel Macs still need direct testing.
 
-**Todavía no hay descarga pública.** Falta completar la validación, firmar con Developer ID, notarizar y comprobar la instalación limpia antes de distribuir un DMG.
+**No public download is available yet.** Validation, Developer ID signing, notarization, and clean-install testing are still required before distributing a DMG.
 
-## Sobre este repositorio
+## About this repository
 
-Este repositorio presenta el producto y su estado. El código fuente, las bibliotecas personales y los paquetes de vista previa no están incluidos aquí.
+This repository presents the product and its current status. It contains no source code, personal snippet libraries, or preview packages.
